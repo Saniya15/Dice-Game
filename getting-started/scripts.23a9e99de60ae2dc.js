@@ -1,0 +1,1 @@
+function func(){var e=Math.floor(6*Math.random())+1,n="../assets/dice"+e+".png";document.querySelectorAll(".img")[0].setAttribute("src",n);var r=Math.floor(6*Math.random())+1,m="../assets/dice"+r+".png";document.querySelectorAll(".img")[1].setAttribute("src",m),document.querySelector("h1").innerHTML=e>r?"Player 1 Wins":e<r?"Player 2 Wins":"Draw!"}
